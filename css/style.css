@@ -1,0 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.page__img {
+  width: 100px;
+  height: 100px;
+  text-align: right;
+}
