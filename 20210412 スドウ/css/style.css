@@ -1,0 +1,316 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.headr {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 10px;
+}
+ul {
+  display: flex;
+}
+li {
+  padding: 10px 10px;
+}
+a {
+  text-decoration: none;
+}
+.headr-img {
+  height: 50%;
+}
+
+.commit {
+  position: relative;
+}
+.commit-card {
+  display: block;
+  margin: 0 0 0 auto;
+  height: 500px;
+  width: 980px;
+}
+.commit1 {
+  position: absolute;
+  font-size: 60px;
+  line-height: 100px;
+  top: 15%;
+  left: 33%;
+  color: #e64b93;
+}
+.commit2 {
+  position: absolute;
+  font-size: 24px;
+  top: 50%;
+  left: 33%;
+  color: #e64b93;
+  font-weight: bold;
+}
+.green {
+  color: #1bb687;
+}
+.since {
+  position: absolute;
+  top: 60%;
+  left: 33%;
+}
+
+.news {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+section {
+  color: #cccccc;
+  line-height: 30px;
+}
+.news1 {
+  height: 450px;
+  border-top: solid 0.5px;
+  border-bottom: solid 0.5px;
+  padding: 40px 0;
+  text-align: justify;
+  line-height: 40px;
+  margin: 30px 0;
+}
+.news2 {
+  border-bottom: solid 0.5px;
+}
+
+.pick {
+  background-color: #be2dab;
+  color: #ffffff;
+  border-radius: 20px;
+}
+.child {
+  color: #e430eb;
+}
+h2 {
+  color: #cccccc;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.about {
+  background: #f1f0f0;
+  position: relative;
+  width: 1800px;
+  flex: none;
+  margin: 0 auto;
+}
+.about2 {
+  padding: 50px 0 100px 280px;
+  line-height: 30px;
+  width: 388px;
+}
+.about_img {
+  width: 400px;
+  height: 300px;
+  margin: 50px 300px 0 0;
+  float: right;
+}
+.about_tti {
+  text-align: center;
+}
+.about_m {
+  padding-top: 30px;
+}
+.service {
+  margin: 100px 200px 100px 200px;
+}
+.grid {
+  display: grid;
+  grid-auto-rows: 400px;
+}
+.service_ttl {
+  text-align: center;
+  color: #ffffff;
+  margin: 350px auto;
+  font-weight: bolder;
+  font-size: 35px;
+}
+.service2 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background: #d45fd8 url("../静的LPimg/service__first.svg") no-repeat;
+  background-size: 100% 40%;
+}
+.service21 {
+  margin: -300px 100px 0 100px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 50px;
+}
+.service_ttl1 {
+  color: #ffffff;
+  margin: 100px 0 0 400px;
+  font-weight: bolder;
+  font-size: 35px;
+}
+.service3 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background: #a950ac url("../静的LPimg/service__first.svg") no-repeat;
+  background-size: 50%;
+}
+.service31 {
+  padding: 50px 0 0 400px;
+  color: #ffffff;
+  line-height: 30px;
+}
+.service_ttl2 {
+  color: #ffffff;
+  margin: 100px 0 0 400px;
+  font-weight: bolder;
+  font-size: 35px;
+}
+.service4 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background: #7c697c url("../静的LPimg/service__first.svg") no-repeat;
+  background-size: 50%;
+}
+.service41 {
+  padding: 50px 0 0 400px;
+  color: #ffffff;
+  line-height: 30px;
+}
+.blog {
+  background-color: #e9e3e9;
+  height: 600px;
+}
+.blog_ttl {
+  margin-left: 200px;
+}
+.blog_tag {
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 150px 0 150px;
+}
+.blog2 {
+  background-color: #ffffff;
+  width: 400px;
+  height: 400px;
+  border-radius: 30px 30px 30px 30px;
+  position: relative;
+}
+.blog_img {
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+}
+.blog_mds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ba2abe;
+  border-radius: 30px 0 0 0;
+  width: 60px;
+  height: 25px;
+  padding: 5% 0 0 10%;
+  color: #ffffff;
+}
+.blog21 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+}
+.blog211 {
+  margin: 25px 30px 35px 30px;
+  font-size: 22px;
+}
+.blog212 {
+  display: inline-block;
+}
+.blog213 {
+  display: inline-block;
+}
+.blog3 {
+  background-color: #ffffff;
+  border: solid 2px #e430eb;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px 20px 20px 20px;
+  margin: 0 auto;
+}
+.blog31 {
+  color: #e430eb;
+  text-align: center;
+  margin-top: 10px;
+}
+.company {
+  margin: 200px 0 0 310px;
+}
+table {
+  width: 60%;
+  height: 400px;
+}
+table th,
+table td {
+  border: solid 1px #9b9b9b;
+  text-align: left;
+  padding: 20px;
+  color: #686868;
+}
+table th {
+  background-color: #d3d2d2;
+}
+.reprot {
+  margin-top: 100px;
+  display: grid;
+  grid-template-rows: 500px;
+}
+.reprot2 {
+  background: url("../静的LPimg/recruit.png") no-repeat;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  background-size: 1000px;
+}
+.reprot21 {
+  text-align: center;
+  margin-top: 200px;
+  color: #ffffff;
+  font-size: 32px;
+}
+.reprot3 {
+  background: url("../静的LPimg/interview.png") no-repeat;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  background-size: 1000px;
+}
+.reprot31 {
+  text-align: center;
+  margin-top: 200px;
+  color: #ffffff;
+  font-size: 32px;
+}
+.contact2 {
+  text-align: center;
+  font-weight: bolder;
+  color: #949494;
+}
+.contact3 {
+  height: 100px;
+  width: 5px;
+  background-color: #7e1781;
+  margin: 30px auto;
+}
+.contact4 {
+  height: 50px;
+  width: 200px;
+  background: linear-gradient(90deg, #ff1f9a, #be2dab);
+  margin: 30px auto;
+  border-radius: 40px 40px 40px 40px;
+  box-shadow: 0 10px #811f74;
+}
+.contact41 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  position: relative;
+}
+footer {
+  background-color: #dbdbdb;
+  text-align: center;
+}
