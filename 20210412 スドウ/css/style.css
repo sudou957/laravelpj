@@ -2,24 +2,28 @@
   padding: 0;
   margin: 0;
 }
+body {
+  width: 1500px;
+}
 
 .headr {
   display: flex;
   justify-content: space-between;
   height: 70px;
   padding: 0 10px;
+  align-items: center;
 }
 ul {
   display: flex;
 }
 li {
-  padding: 10px 10px;
+  margin-right: 25px;
 }
 a {
   text-decoration: none;
 }
-.headr-img {
-  height: 50%;
+.headr-img2 {
+  width: 25%;
 }
 
 .commit {
@@ -29,21 +33,22 @@ a {
   display: block;
   margin: 0 0 0 auto;
   height: 500px;
-  width: 980px;
+  width: 850px;
 }
 .commit1 {
   position: absolute;
   font-size: 60px;
   line-height: 100px;
   top: 15%;
-  left: 33%;
+  left: 23%;
   color: #e64b93;
+  font-style: unset;
 }
 .commit2 {
   position: absolute;
   font-size: 24px;
-  top: 50%;
-  left: 33%;
+  top: 65%;
+  left: 24%;
   color: #e64b93;
   font-weight: bold;
 }
@@ -52,27 +57,29 @@ a {
 }
 .since {
   position: absolute;
-  top: 60%;
-  left: 33%;
+  top: 70%;
+  left: 24%;
 }
 
 .news {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 section {
-  color: #cccccc;
+  color: #5f5f5f;
   line-height: 30px;
+  padding: 5px;
 }
 .news1 {
   height: 450px;
   border-top: solid 0.5px;
   border-bottom: solid 0.5px;
-  padding: 40px 0;
+  padding: 30px 0;
   text-align: justify;
   line-height: 40px;
-  margin: 30px 0;
+  margin: 20px 0;
+  width: 850px;
 }
 .news2 {
   border-bottom: solid 0.5px;
@@ -82,12 +89,15 @@ section {
   background-color: #be2dab;
   color: #ffffff;
   border-radius: 20px;
+  padding: 0 15px 0 15px;
+  margin: 0 15px 0 15px;
 }
 .child {
   color: #e430eb;
+  margin-bottom: 5px;
 }
 h2 {
-  color: #cccccc;
+  color: #616161;
   font-weight: bold;
   font-size: 30px;
 }
@@ -95,19 +105,19 @@ h2 {
 .about {
   background: #f1f0f0;
   position: relative;
-  width: 1800px;
+  width: 1500px;
   flex: none;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 .about2 {
-  padding: 50px 0 100px 280px;
+  padding: 50px 0 100px 235px;
   line-height: 30px;
   width: 388px;
 }
 .about_img {
-  width: 400px;
-  height: 300px;
-  margin: 50px 300px 0 0;
+  width: 430px;
+  height: 250px;
+  margin: 50px 200px 0 0;
   float: right;
 }
 .about_tti {
@@ -117,18 +127,22 @@ h2 {
   padding-top: 30px;
 }
 .service {
-  margin: 100px 200px 100px 200px;
+  margin: 100px 0 100px 235px;
 }
 .grid {
   display: grid;
-  grid-auto-rows: 400px;
+  grid-auto-rows: 300px;
+  grid-auto-columns: 540px;
 }
 .service_ttl {
   text-align: center;
   color: #ffffff;
-  margin: 350px auto;
+  margin: 300px auto;
   font-weight: bolder;
   font-size: 35px;
+}
+.service1 {
+  padding: 10px 0 30px 0;
 }
 .service2 {
   grid-column: 1/2;
@@ -139,12 +153,12 @@ h2 {
 .service21 {
   margin: -300px 100px 0 100px;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 50px;
 }
 .service_ttl1 {
   color: #ffffff;
-  margin: 100px 0 0 400px;
+  margin: 40px 0 0 250px;
   font-weight: bolder;
   font-size: 35px;
 }
@@ -152,16 +166,16 @@ h2 {
   grid-column: 2/3;
   grid-row: 1/2;
   background: #a950ac url("../静的LPimg/service__first.svg") no-repeat;
-  background-size: 50%;
+  background-size: 47%;
 }
 .service31 {
-  padding: 50px 0 0 400px;
+  padding: 50px 0 0 252px;
   color: #ffffff;
   line-height: 30px;
 }
 .service_ttl2 {
   color: #ffffff;
-  margin: 100px 0 0 400px;
+  margin: 40px 0 0 250px;
   font-weight: bolder;
   font-size: 35px;
 }
@@ -169,30 +183,30 @@ h2 {
   grid-column: 2/3;
   grid-row: 2/3;
   background: #7c697c url("../静的LPimg/service__first.svg") no-repeat;
-  background-size: 50%;
+  background-size: 47%;
 }
 .service41 {
-  padding: 50px 0 0 400px;
+  padding: 50px 0 0 252px;
   color: #ffffff;
   line-height: 30px;
 }
 .blog {
   background-color: #e9e3e9;
-  height: 600px;
+  height: 520px;
 }
 .blog_ttl {
-  margin-left: 200px;
+  margin-left: 235px;
 }
 .blog_tag {
-  height: 450px;
+  height: 370px;
   display: flex;
   justify-content: space-around;
-  margin: 0 150px 0 150px;
+  margin: 0 160px 0 210px;
 }
 .blog2 {
   background-color: #ffffff;
-  width: 400px;
-  height: 400px;
+  width: 330px;
+  height: 354px;
   border-radius: 30px 30px 30px 30px;
   position: relative;
 }
@@ -217,8 +231,9 @@ h2 {
   padding: 0 30px 0 30px;
 }
 .blog211 {
-  margin: 25px 30px 35px 30px;
-  font-size: 22px;
+  margin: 15px 30px 35px 30px;
+  font-size: 16px;
+  line-height: 25px;
 }
 .blog212 {
   display: inline-block;
@@ -229,7 +244,7 @@ h2 {
 .blog3 {
   background-color: #ffffff;
   border: solid 2px #e430eb;
-  width: 180px;
+  width: 160px;
   height: 40px;
   border-radius: 20px 20px 20px 20px;
   margin: 0 auto;
@@ -245,6 +260,7 @@ h2 {
 table {
   width: 60%;
   height: 400px;
+  margin-top: 20px;
 }
 table th,
 table td {
@@ -265,11 +281,11 @@ table th {
   background: url("../静的LPimg/recruit.png") no-repeat;
   grid-row: 1/2;
   grid-column: 1/2;
-  background-size: 1000px;
+  background-size: 850px;
 }
 .reprot21 {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 150px;
   color: #ffffff;
   font-size: 32px;
 }
@@ -277,11 +293,11 @@ table th {
   background: url("../静的LPimg/interview.png") no-repeat;
   grid-row: 1/2;
   grid-column: 2/3;
-  background-size: 1000px;
+  background-size: 850px;
 }
 .reprot31 {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 150px;
   color: #ffffff;
   font-size: 32px;
 }
@@ -312,5 +328,14 @@ table th {
 }
 footer {
   background-color: #dbdbdb;
+  text-align: center;
+  height: 30px;
+  padding-top: 30px;
+}
+.copy::before {
+  content: "Copyright";
+}
+.cm {
+  font-size: 5px;
   text-align: center;
 }
