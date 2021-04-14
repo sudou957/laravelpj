@@ -73,16 +73,16 @@ section {
 }
 .news1 {
   height: 450px;
-  border-top: solid 0.5px;
-  border-bottom: solid 0.5px;
-  padding: 30px 0;
+  border-top: solid 0.5px #a8a8a8;
+  border-bottom: solid 0.5px #a8a8a8;
+  padding: 40px 0;
   text-align: justify;
   line-height: 40px;
   margin: 20px 0;
   width: 850px;
 }
 .news2 {
-  border-bottom: solid 0.5px;
+  border-bottom: solid 0.5px #a8a8a8;
 }
 
 .pick {
@@ -94,7 +94,7 @@ section {
 }
 .child {
   color: #e430eb;
-  margin-bottom: 5px;
+  padding: 39px 0 10px 0;
 }
 h2 {
   color: #616161;
@@ -107,7 +107,7 @@ h2 {
   position: relative;
   width: 1500px;
   flex: none;
-  margin: 30px auto;
+  margin: 75px auto;
 }
 .about2 {
   padding: 50px 0 100px 235px;
@@ -127,7 +127,7 @@ h2 {
   padding-top: 30px;
 }
 .service {
-  margin: 100px 0 100px 235px;
+  margin: -20px 0 100px 235px;
 }
 .grid {
   display: grid;
@@ -148,13 +148,13 @@ h2 {
   grid-column: 1/2;
   grid-row: 1/3;
   background: #d45fd8 url("../静的LPimg/service__first.svg") no-repeat;
-  background-size: 100% 40%;
+  background-size: 100% 48%;
 }
 .service21 {
-  margin: -300px 100px 0 100px;
+  margin: -290px 100px 0 100px;
   color: #ffffff;
-  font-size: 16px;
-  line-height: 50px;
+  font-size: 14px;
+  line-height: 30px;
 }
 .service_ttl1 {
   color: #ffffff;
@@ -192,20 +192,20 @@ h2 {
 }
 .blog {
   background-color: #e9e3e9;
-  height: 520px;
+  height: 600px;
 }
 .blog_ttl {
-  margin-left: 235px;
+  margin: 0 0 30px 235px;
 }
 .blog_tag {
-  height: 370px;
+  height: 390px;
   display: flex;
   justify-content: space-around;
   margin: 0 160px 0 210px;
 }
 .blog2 {
   background-color: #ffffff;
-  width: 330px;
+  width: 320px;
   height: 354px;
   border-radius: 30px 30px 30px 30px;
   position: relative;
@@ -255,12 +255,12 @@ h2 {
   margin-top: 10px;
 }
 .company {
-  margin: 200px 0 0 310px;
+  margin: 75px 0 0 310px;
 }
 table {
   width: 60%;
   height: 400px;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 table th,
 table td {
@@ -273,19 +273,19 @@ table th {
   background-color: #d3d2d2;
 }
 .reprot {
-  margin-top: 100px;
+  margin-top: 80px;
   display: grid;
-  grid-template-rows: 500px;
+  grid-template-rows: 360px;
 }
 .reprot2 {
   background: url("../静的LPimg/recruit.png") no-repeat;
   grid-row: 1/2;
   grid-column: 1/2;
-  background-size: 850px;
+  background-size: 700px 300px;
 }
 .reprot21 {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 130px;
   color: #ffffff;
   font-size: 32px;
 }
@@ -293,11 +293,11 @@ table th {
   background: url("../静的LPimg/interview.png") no-repeat;
   grid-row: 1/2;
   grid-column: 2/3;
-  background-size: 850px;
+  background-size: 820px 300px;
 }
 .reprot31 {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 130px;
   color: #ffffff;
   font-size: 32px;
 }
@@ -307,17 +307,18 @@ table th {
   color: #949494;
 }
 .contact3 {
-  height: 100px;
-  width: 5px;
+  height: 40px;
+  width: 1px;
   background-color: #7e1781;
-  margin: 30px auto;
+  margin: 15px auto;
 }
 .contact4 {
   height: 50px;
-  width: 200px;
+  width: 230px;
   background: linear-gradient(90deg, #ff1f9a, #be2dab);
-  margin: 30px auto;
-  border-radius: 40px 40px 40px 40px;
+  margin: 15px auto;
+  margin-bottom: 80px;
+  border-radius: 200px 200px 200px 200px;
   box-shadow: 0 10px #811f74;
 }
 .contact41 {
@@ -331,6 +332,7 @@ footer {
   text-align: center;
   height: 30px;
   padding-top: 30px;
+  border-bottom: 0.5px solid #000000;
 }
 .copy::before {
   content: "Copyright";
