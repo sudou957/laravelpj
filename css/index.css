@@ -1,0 +1,252 @@
+* {
+  text-decoration: none;
+  color: inherit;
+}
+
+.headr {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+}
+.headr-img2 {
+  height: 20px;
+}
+ul {
+  display: flex;
+}
+.nav-tti:not(:last-child) {
+  margin-right: 30px;
+  color: #000000;
+}
+.nav-tti {
+  display: inline;
+  font-size: 15px;
+}
+body {
+  line-height: 1.5;
+  padding-top: 70px;
+}
+.top {
+  background: url("../CS/img/mv.png") no-repeat center;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+}
+.top-bun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top-message {
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 45px;
+}
+.top-coment {
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+}
+.sisou {
+  background-color: black;
+}
+.sisou-coment {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 5% 0 5% 0;
+}
+.sisou-title {
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 2;
+}
+.sisou-bun {
+  color: #ffffff;
+}
+.servies {
+  width: 1100px;
+  margin: 0 auto;
+}
+.servies-title {
+  text-align: center;
+  font-size: 24px;
+  margin: 50px 0 20px 0;
+}
+.service1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.servies-midasi {
+  width: 100%;
+  padding: 0 10px 10px 0;
+}
+.midasi {
+  width: 100%;
+}
+.midasi-coment {
+  font-size: 15px;
+}
+.service-btn {
+  position: relative;
+  display: flex;
+  background-color: #c53838;
+  color: #ffffff;
+  justify-content: center;
+  width: 25%;
+  height: 40px;
+  margin: 30px auto;
+}
+.btn-coment {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+}
+.news {
+  background-color: black;
+
+  height: 500px;
+}
+.news-hure-mu {
+  margin: 0 auto;
+  width: 1100px;
+  transform: translate(0, 30%);
+}
+.news-btn {
+  position: relative;
+  display: flex;
+  background-color: #c53838;
+  width: 17%;
+  height: 40px;
+  transform: translate(490%, -50%);
+  color: #ffffff;
+}
+.news-title {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 24px;
+}
+.news-tag {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.news-tagdate {
+  background-color: #ffffff;
+  height: 70px;
+  margin: 5px 0 5px 0;
+}
+.coment {
+  transform: translate(0, 100%);
+}
+.news-coment {
+  font-weight: bold;
+}
+.blog {
+  width: 1100px;
+  margin: 0 auto;
+}
+.blog-title {
+  text-align: center;
+  font-size: 24px;
+  margin: 50px 0 30px 0;
+}
+.blog-tag {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-card {
+  width: 50%;
+  padding: 10px 20px 10px 0;
+}
+.blog-png {
+  width: 100%;
+}
+.blog-bun {
+  font-weight: bolder;
+}
+.gaiyo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.gaiyou {
+  height: 250px;
+  position: relative;
+  background-color: #c53838;
+  color: rgb(255, 255, 255);
+  width: 50%;
+}
+.gaiyo-bun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 24px;
+  transform: translate(-50%, -50%);
+}
+.saiyou {
+  height: 250px;
+  position: relative;
+  background-color: black;
+  color: #ffffff;
+  width: 50%;
+}
+.saiyou-bun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 24px;
+  transform: translate(-50%, -50%);
+}
+.call {
+  background-color: #f3f3f3;
+  text-align: center;
+  align-items: center;
+  line-height: 50px;
+  height: 300px;
+  width: 1100px;
+  margin: 0 auto;
+}
+.call-title {
+  font-size: 30px;
+  padding-top: 40px;
+}
+footer {
+  background-color: #202020;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 23px;
+  background-color: #202020;
+  color: #ffffff;
+  font-size: 10px;
+  width: 1090px;
+  margin: 0 auto;
+}
+.site-run {
+  display: flex;
+}
+.site-menu {
+  display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.site-menu:nth-child(n + 1):nth-child(n + 2) {
+  border-left: 0.5px solid #ffffff;
+}
