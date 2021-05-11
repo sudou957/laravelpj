@@ -2,6 +2,9 @@
   text-decoration: none;
   color: inherit;
 }
+a:hover {
+  opacity: 0.75;
+}
 /*デスクトップ表示用*/
 .headr {
   position: fixed;
@@ -14,6 +17,9 @@
   font-weight: bold;
   z-index: 1;
   width: 100%;
+}
+.header:hover {
+  opacity: 0.75;
 }
 .headr-img2 {
   height: 18px;
@@ -115,7 +121,7 @@ body {
 .top {
   background: url("../CS/img/mv.png") no-repeat center;
   background-size: cover;
-  height: 900px;
+  height: 800px;
   position: relative;
 }
 .top-bun {
@@ -123,6 +129,11 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media screen and(max-width:768) {
+  .top-bun {
+    width: 80%;
+  }
 }
 .top-message {
   text-align: center;
@@ -167,14 +178,10 @@ body {
   flex-wrap: wrap;
 }
 .servies-midasi {
-  width: 49%;
+  width: 100%;
   padding: 0 5px 10px 0;
 }
 @media screen and(max-width:768px) {
-  .servies {
-    width: 100%;
-    margin: 0 auto;
-  }
   .servies-midasi {
     width: 100%;
     padding: 0 5px 10px 0;
@@ -345,29 +352,6 @@ footer {
 
 /*レスポンシブルコード*/
 @media screen and (max-width: 768px) {
-  .top {
-    background: url("../CS/img/mv.png") no-repeat center;
-    background-size: cover;
-    height: 1100px;
-    position: relative;
-  }
-  .top-bun {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .top-message {
-    text-align: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 45px;
-  }
-  .top-coment {
-    text-align: center;
-    align-items: center;
-    color: #ffffff;
-  }
   .sisou {
     background-color: black;
     width: 100%;
