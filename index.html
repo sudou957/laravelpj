@@ -7,13 +7,14 @@
   <title>株式会社TECH</title>
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/index.css"/>
+  <!--ヘッダー部分-->
   <header class="headr">
 
      <a href="index.html">
       <img class="headr-img2" src="CS/img/logo.png" alt="">
      </a>
-   <nav class="headr-nav">
-      <ul>
+   <nav class="headr-nav" id="headr-nav">
+      <ul class="nav-list">
        <li class="nav-tti"><a href="index.html">ホーム</a></li>
        <li class="nav-tti"><a href="service.html">事業内容</a></li>
        <li class="nav-tti"><a href="news.html">ニュース</a></li>
@@ -23,44 +24,32 @@
        <li class="nav-tti"><a href="contact.html">お問い合わせ</a></li>
       </ul>
    </nav>
+    <div class="menu" id="menu">
+      <span class="menu-line-top"></span>
+      <span class="menu-line-middle"></span>
+      <span class="menu-line-bottom"></span>
+    </div>
   </header>
-  <!--レスポンシブル対応コード-->
-    <header class="headr2">
-     <a href="index.html">
-      <img class="headr-img2" src="CS/img/logo.png" alt="">
-     </a>
-   <nav class="headr-nav2" id="nav2">
-      <ul>
-       <li class="nav-tti2"><a href="index.html">ホーム</a></li>
-       <li class="nav-tti2"><a href="service.html">事業内容</a></li>
-       <li class="nav-tti2"><a href="news.html">ニュース</a></li>
-       <li class="nav-tti2"><a href="blog.html">社員ブログ</a></li>
-       <li class="nav-tti2"><a href="company.html">会社概要</a></li>
-       <li class="nav-tti2"><a href="recruit.html">採用情報</a></li>
-       <li class="nav-tti2"><a href="contact.html">お問い合わせ</a></li>
-      </ul>
-   </nav>
-   <div class="menu" id="menu">
-    <span class="menu-line-top"></span>
-    <span class="menu-line-middle"></span>
-    <span class="menu-line-bottom"></span>
-   </div>
-  </header>
-  <!--レスポンシブル対応コード終わり-->
+  <!--ヘッダー部分-->
 </head>
 <body>
+  <!--見出しページ部分-->
   <div class="top">
     <div class="top-bun">
     <h1 class="top-message">最新のテクノロジーで社会課題を解決</h1>
     <p class="top-coment">Solving social issues with the latest technology</p>
     </div>
   </div>
+  <!--見出しページ部分-->
+  <!--メッセージ部分-->
   <div class="sisou">
     <div class="sisou-coment">
     <h1 class="sisou-title">株式会社TECHの想い</h1>
     <div class="sisou-bun">あらゆる産業において、新たなデジタル技術を使ってこれまでにないビジネスモデルを展開する新規参入者が登場し、ゲームチェンジが起ころうとしています。こうした中で、各企業は、競争力維持・強化のために、DXを迅速に進めていくことが求められています。しかし、DXにおいて投資コストは非常にかかります。株式会社TECHでは独自のオペレーションと人材教育により、他社よりも価格を抑えた開発を行います。</div>
     </div>
   </div>
+  <!--メッセージ部分-->
+  <!--サービス部分-->
   <div class="servies">
     <h1 class="servies-title">サービス</h1>
     <div class="service1">
@@ -90,6 +79,8 @@
     <a href="service.html" class="service-btn">
       <h2 class="btn-coment">サービス一覧を見る</h2></a>
   </div>
+  <!--サービス部分-->
+  <!--ニュース部分-->
   <div class="news">
     <div class="news-hure-mu">
     <h1 class="news-title">ニュース</h1>
@@ -106,6 +97,8 @@
     </div>
     </div>
   </div>
+  <!--ニュース部分-->
+  <!--ブログ部分-->
   <div class="blog">
     <h1 class="blog-title">社員ブログ</h1>
     <div class="blog-tag">
@@ -135,12 +128,16 @@
       <h2 class="btn-coment">サービス一覧を見る</h2>
     </a>
   </div>
+  <!--ブログ部分-->
+  <!--会社概要部分-->
   <div class="gaiyo">
     <a class="gaiyou" href="company.html">
       <h2 class="gaiyo-bun">会社概要</h2></a>
     <a class="saiyou" href="recruit.html">
       <h2 class="saiyou-bun">採用情報</h2></a>
   </div>
+  <!--会社概要部分-->
+  <!--お問い合わせ部分-->
   <div class="call">
     <div class="call-block">
     <h1 class="call-title">お問い合わせ</h1>
@@ -150,6 +147,7 @@
     </a>
     </div>
   </div>
+  <!--お問い合わせ部分-->
   <script src="js/main.js"></script>
 </body>
 <footer>
