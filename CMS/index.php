@@ -12,7 +12,7 @@
         <h1 class="new-top">新着記事</h1>
         <div class="flex1">
           <?php if (have_posts()) : ?>
-            <?php while (have_posts()) : ?>
+            <?php while (have_posts()) : the_post(); ?>
               <!--メインループ開始 -->
               <a class="flex2" href="<?php the_permalink(); ?>">
                 <!--個別記事へのリンクの出力 -->
