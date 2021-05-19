@@ -12,9 +12,7 @@
 <body <?php body_class(); ?>>
   <header class="midasi">
     <a class="page-top" href="<?php echo esc_url(home_url('/')); ?>">
-      <img src="./img/estramedia__logo.png" alt="">
-      <?php bloginfo('name'); ?>
-      <?php bloginfo('description'); ?>
+      <img src="http://localhost/wp01/wp-content/uploads/2021/05/estramedia__logo.png" alt="">
     </a>
     <nav>
       <ul>
