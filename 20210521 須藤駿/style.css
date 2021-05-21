@@ -1,0 +1,425 @@
+@charset "utf-8";
+/*
+Theme Name: CML
+Theme URL: テーマのサイトのURL
+Description: 演習課題
+Author: sudou
+Version: テーマのバージョン
+Tags: テーマの特徴を表すタグ（カンマ区切り/オプション）
+License: テーマのライセンス
+License URI: テーマのライセンスのURL
+*/
+* {
+  text-decoration: none;
+  color: inherit;
+}
+.midasi {
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+body {
+  background-color: #ebebeb;
+}
+main {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.page-top {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 500px 0 500px;
+}
+.koumoku {
+  padding: 20px;
+}
+/*見出しレスポンシブルデザイン*/
+@media screen and (max-width: 760px) {
+  .midasi {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    height: 90px;
+  }
+  .koumoku-nav {
+    display: none;
+  }
+  /*見出しレスポンシブルデザイン終わり*/
+}
+/*top画面*/
+.top {
+  background-image: url("./img/media__firstview.png");
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  position: relative;
+  height: 300px;
+}
+.top-coment1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+.top-coment2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 40px;
+}
+/*トップレスポンシブルデザイン*/
+@media screen and (max-width: 760px) {
+  .top {
+    background-image: url("./img/media__firstview-sp.png");
+    background-size: 100%;
+    background-position: center;
+    height: 520px;
+    background-repeat: no-repeat;
+  }
+  .top-coment1,
+  .top-coment2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .top-coment1 {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .top-coment2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+/*トップ画面ここまで*/
+img {
+  width: 100%;
+  height: 50%;
+}
+.post {
+  width: 80%;
+  margin: 15% 15px 10px 15px;
+}
+.sidebar {
+  width: 30%;
+  margin: 15% 10px;
+}
+
+.new-post {
+  color: #ff0d86;
+  width: 100px;
+}
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex2 {
+  border-radius: 20px;
+  width: 30%;
+  height: 250px;
+  position: relative;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.tag-midasi {
+  position: absolute;
+  background-color: #ff0d86;
+  color: #ffffff;
+  top: 0%;
+  padding: 10px;
+}
+.midasi-tag {
+  transform: translate(10%, 50%);
+  font-size: 14px;
+}
+
+.comet-card {
+  background-color: #ffffff;
+  width: 85%;
+  margin: 10px auto;
+}
+.comet-text {
+  font-size: 17px;
+  font-weight: bold;
+}
+.tag-y-m-d {
+  transform: translate(0, 200%);
+  font-size: 14px;
+}
+.ziseki-png {
+  border-radius: 20px;
+  margin-top: 10%;
+  width: 100%;
+  height: 40%;
+}
+.purofiru {
+  background-color: #ffffff;
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+  position: relative;
+  margin: 20px 0 20px 0;
+}
+.icon {
+  background-color: #b900a1;
+  border-radius: 50%;
+  height: 40%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 25%;
+  left: 50%;
+}
+.purofiru-ong {
+  width: 100%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.purofiru-name {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  font-size: 20px;
+  color: #858585;
+}
+.purofiru-coment {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  right: 5%;
+  line-height: 1.5;
+  color: #858585;
+}
+.category-tag {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  height: 280px;
+  margin-bottom: 10%;
+}
+.category-top {
+  padding: 8% 0 8% 5%;
+  font-size: 24px;
+  color: #5f5f5f;
+}
+.category-log {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px #ececec solid;
+  line-height: 1;
+  padding: 3%;
+  width: 85%;
+  margin: 0 auto;
+  color: #5f5f5f;
+}
+.category-koumoku {
+  position: relative;
+  width: 50%;
+}
+.category-koumoku::before {
+  content: "";
+  background-image: url("./img/arrow.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 180%;
+}
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 25px;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 760px) {
+  main {
+    flex-direction: column;
+    width: 100%;
+  }
+  .post {
+    width: 85%;
+    margin: 0 auto;
+    height: 1100px;
+    border-bottom: #bfbfbf solid 0.5px;
+  }
+  .post {
+    margin-top: 10%;
+  }
+  .new-post {
+    font-size: 14px;
+  }
+  .new-top {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .flex1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .flex2 {
+    width: 100%;
+    height: 220px;
+    margin: 10px 0 15px 0;
+  }
+  .post-png {
+    width: 100%;
+    height: 150%;
+    transform: translate(0%, -25%);
+  }
+  .comet-card {
+    background-color: #ffffff;
+    width: 100%;
+    height: 40%;
+    transform: translate(0%, 20%);
+  }
+  .comet-text {
+    padding: 15px 0px 0 15px;
+    color: #535353;
+  }
+  .tag-y-m-d {
+    transform: translate(3%, 180%);
+    font-size: 12px;
+  }
+  .sidebar {
+    margin: 0 auto;
+    width: 85%;
+  }
+  .ziseki-png {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .purofiru {
+    width: 100%;
+    height: 320px;
+  }
+  .icon {
+    width: 25%;
+    height: 45%;
+    transform: translate(-50%, -35%);
+  }
+  .purofiru-name {
+    transform: translate(-50%, 120%);
+  }
+  .purofiru-coment {
+    font-size: 14px;
+    position: absolute;
+    top: 77%;
+  }
+  .category {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 60px;
+  }
+  .category-top {
+    padding: 6% 0 6% 7%;
+    font-size: 22px;
+  }
+  .category-log {
+    padding: 10px;
+  }
+  .footer {
+    height: 36px;
+    font-size: 13px;
+    color: #afafaf;
+  }
+}
+
+/*シングルページのcss*/
+.kizi {
+  width: 55%;
+  margin: 65px auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  min-width: 400px;
+  position: relative;
+}
+.kizi img {
+  border-radius: 20px;
+}
+.kyaria {
+  position: absolute;
+  background-color: #be0c8f;
+  transform: translate(10%, 85%);
+  color: #ffffffff;
+  border-radius: 30px;
+  padding: 10px;
+}
+.kizi-title {
+  padding: 18% 0 5% 10px;
+  color: rgb(107, 107, 107);
+  font-size: 28px;
+}
+.y-m-d {
+  margin: 5% 0 5% 10px;
+  color: rgb(107, 107, 107);
+}
+.kizinakami {
+  padding: 15px 10px 15px 10px;
+  color: rgb(107, 107, 107);
+}
+.kizinakami h3 {
+  border-left: 10px solid #b4154a;
+  padding: 15px 0 15px 10px;
+  font-size: 20px;
+}
+.kizinakami p {
+  padding: 15px 0 15px 0;
+}
+.kizinakami h2 {
+  padding: 15px 0 15px 0;
+  font-size: 25px;
+}
+.kizinakami h4 {
+  padding: 15px 0 15px 0;
+  font-size: 18px;
+}
+.category-haikei {
+  background-color: #b4154a;
+  color: rgb(255, 255, 255);
+  position: relative;
+  width: 100%;
+  height: 140px;
+}
+.top-category {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+.post-category {
+  width: 80%;
+  margin: 15% 15px 10px 15px;
+}
+@media screen and (max-width: 768px) {
+  .post-category {
+    width: 85%;
+    margin: 0 auto;
+    height: 350px;
+    border-bottom: #bfbfbf solid 0.5px;
+  }
+  .post-category {
+    margin-top: 10%;
+  }
+  .category-haikei {
+    height: 230px;
+  }
+}
