@@ -16,19 +16,19 @@
     <div class="category-tag">
       <h1 class="category-top">Category</h1>
       <div class="category-log">
-        <a class="category-koumoku" href="http://localhost/wp01/category/HTML/">HTML</a>
+        <a class="category-koumoku" href="<?php echo get_category_link(6); ?>">HTML</a>
       </div>
       <div class="category-log">
-        <a class="category-koumoku" href="http://localhost/wp01/category/CSS/">CSS</a>
+        <a class="category-koumoku" href="<?php echo get_category_link(7); ?>">CSS</a>
       </div>
       <div class="category-log">
-        <a class="category-koumoku" href="http://localhost/wp01/category/JavaScript/">JavaScript</a>
+        <a class="category-koumoku" href="<?php echo get_category_link(5); ?>">JavaScript</a>
       </div>
       <div class="category-log">
-        <a class="category-koumoku" href="http://localhost/wp01/category/PHP/">PHP</a>
+        <a class="category-koumoku" href="<?php echo get_category_link(4); ?>">PHP</a>
       </div>
       <div class="category-log">
-        <a class="category-koumoku" href="http://localhost/wp01/category/MYSQL/">MYSQL</a>
+        <a class="category-koumoku" href="<?php echo get_category_link(3); ?>">MYSQL</a>
       </div>
     </div>
   </aside>

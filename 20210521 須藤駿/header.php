@@ -16,11 +16,11 @@
     </a>
     <nav class="koumoku-nav">
       <ul>
-        <li class="koumoku"><a href="http://localhost/wp01/category/HTML/">HTML</a></li>
-        <li class="koumoku"><a href="http://localhost/wp01/category/CSS/">CSS</a></li>
-        <li class="koumoku"><a href="http://localhost/wp01/category/JavaScript/">JavaScript</a></li>
-        <li class="koumoku"><a href="http://localhost/wp01/category/PHP/">PHP</a></li>
-        <li class="koumoku"><a href="http://localhost/wp01/category/MYSQL/">MySQL</a></li>
+        <li class="koumoku"><a href="<?php echo get_category_link(6); ?>">HTML</a></li>
+        <li class="koumoku"><a href="<?php echo get_category_link(7); ?>">CSS</a></li>
+        <li class="koumoku"><a href="<?php echo get_category_link(5); ?>">JavaScript</a></li>
+        <li class="koumoku"><a href="<?php echo get_category_link(4); ?>">PHP</a></li>
+        <li class="koumoku"><a href="<?php echo get_category_link(3); ?>">MySQL</a></li>
       </ul>
     </nav>
   </header>
