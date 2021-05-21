@@ -14,13 +14,13 @@
     <a class="page-top" href="<?php echo esc_url(home_url('/')); ?>">
       <img src="http://localhost/wp01/wp-content/uploads/2021/05/estramedia__logo.png" alt="">
     </a>
-    <nav>
+    <nav class="koumoku-nav">
       <ul>
-        <li class="koumoku">HTML</li>
-        <li class="koumoku">CSS</li>
-        <li class="koumoku">JavaScript</li>
-        <li class="koumoku">PHP</li>
-        <li class="koumoku">MySQL</li>
+        <li class="koumoku"><a href="http://localhost/wp01/category/HTML/">HTML</a></li>
+        <li class="koumoku"><a href="http://localhost/wp01/category/CSS/">CSS</a></li>
+        <li class="koumoku"><a href="http://localhost/wp01/category/JavaScript/">JavaScript</a></li>
+        <li class="koumoku"><a href="http://localhost/wp01/category/PHP/">PHP</a></li>
+        <li class="koumoku"><a href="http://localhost/wp01/category/MYSQL/">MySQL</a></li>
       </ul>
     </nav>
   </header>

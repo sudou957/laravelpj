@@ -2,7 +2,7 @@
   <aside class="sidebar">
     <!-- 実績欄 -->
     <a class="ziseki" href="https://coachtech.site/">
-      <img class="ziseki-png" src="./img/banner.png" alt="">
+      <img class="ziseki-png" src="http://localhost/wp01/wp-content/uploads/2021/05/banner.png" alt="">
     </a>
     <!-- プロフィール欄 -->
     <div class="purofiru">
@@ -13,22 +13,22 @@
       <p class="purofiru-coment">プロフィール分が入ります。プロフィール分が入ります。プロフィール分が入ります。プロフィール分が入ります。プロフィール分が入ります。</p>
     </div>
     <!-- カテゴリー欄 -->
-    <div class="category">
+    <div class="category-tag">
       <h1 class="category-top">Category</h1>
       <div class="category-html">
-        <p class="html">HTML</p>
+        <a class="html" href="http://localhost/wp01/category/HTML/">HTML</a>
       </div>
       <div class="category-html">
-        <p class="html">CSS</p>
+        <a class="html" href="http://localhost/wp01/category/CSS/">CSS</a>
       </div>
       <div class="category-html">
-        <p class="html">JavaScript</p>
+        <a class="html" href="http://localhost/wp01/category/JavaScript/">JavaScript</a>
       </div>
       <div class="category-html">
-        <p class="html">PHP</p>
+        <a class="html" href="http://localhost/wp01/category/PHP/">PHP</a>
       </div>
       <div class="category-html">
-        <p class="html">MYSQL</p>
+        <a class="html" href="http://localhost/wp01/category/MYSQL/">MYSQL</a>
       </div>
     </div>
   </aside>

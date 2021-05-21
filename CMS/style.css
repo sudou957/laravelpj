@@ -13,6 +13,10 @@ License URI: テーマのライセンスのURL
   text-decoration: none;
   color: inherit;
 }
+.midasi {
+  background-color: #ffffff;
+  padding-top: 20px;
+}
 body {
   background-color: #ebebeb;
 }
@@ -29,10 +33,10 @@ main {
 ul {
   display: flex;
   justify-content: space-around;
-  margin: 10px 500px 10px 500px;
+  margin: 10px 500px 0 500px;
 }
 .koumoku {
-  padding: 5px;
+  padding: 20px;
 }
 /*見出しレスポンシブルデザイン*/
 @media screen and (max-width: 760px) {
@@ -97,19 +101,19 @@ ul {
   }
 }
 /*トップ画面ここまで*/
+img {
+  width: 100%;
+  height: 50%;
+}
 .post {
   width: 80%;
-  margin-top: 15%;
+  margin: 15% 15px 10px 15px;
 }
 .sidebar {
-  width: 40%;
-  margin-top: 15%;
+  width: 30%;
+  margin: 15% 10px;
 }
-.post-tag {
-  width: 95%;
-  margin: 10px;
-  height: 350px;
-}
+
 .new-post {
   color: #ff0d86;
   width: 100px;
@@ -128,15 +132,9 @@ ul {
   overflow: hidden;
   margin-bottom: 30px;
 }
-.post-png {
-  width: 100%;
-  height: 60%;
-}
 .tag-midasi {
   position: absolute;
   background-color: #ff0d86;
-  width: 85px;
-  height: 20px;
   color: #ffffff;
   top: 0%;
   padding: 10px;
@@ -162,7 +160,8 @@ ul {
 .ziseki-png {
   border-radius: 20px;
   margin-top: 10%;
-  width: 90%;
+  width: 100%;
+  height: 40%;
 }
 .purofiru {
   background-color: #ffffff;
@@ -205,12 +204,12 @@ ul {
   line-height: 1.5;
   color: #858585;
 }
-.category {
+.category-tag {
   background-color: #ffffff;
   border-radius: 20px;
   width: 100%;
-  height: 260px;
-  margin-bottom: 20%;
+  height: 280px;
+  margin-bottom: 10%;
 }
 .category-top {
   padding: 8% 0 8% 5%;
@@ -246,14 +245,19 @@ ul {
   background-color: #ffffff;
   text-align: center;
   padding-top: 25px;
+  margin-top: 10%;
 }
+
 @media screen and (max-width: 760px) {
   main {
     flex-direction: column;
     width: 100%;
   }
   .post {
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
+    height: 1100px;
+    border-bottom: #bfbfbf solid 0.5px;
   }
   .post {
     margin-top: 10%;
@@ -264,12 +268,6 @@ ul {
   .new-top {
     font-size: 18px;
     margin-top: 10px;
-  }
-  .post-tag {
-    width: 85%;
-    margin: 0 auto;
-    height: 820px;
-    border-bottom: #bfbfbf solid 0.5px;
   }
   .flex1 {
     display: flex;
@@ -290,7 +288,7 @@ ul {
     background-color: #ffffff;
     width: 100%;
     height: 40%;
-    transform: translate(0%, -225%);
+    transform: translate(0%, 20%);
   }
   .comet-text {
     padding: 15px 0px 0 15px;
@@ -341,5 +339,88 @@ ul {
     height: 36px;
     font-size: 13px;
     color: #afafaf;
+  }
+}
+
+/*シングルページのcss*/
+.kizi {
+  width: 55%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  min-width: 400px;
+}
+.kizi img {
+  border-radius: 20px;
+}
+.kyaria {
+  width: 24%;
+  height: 25px;
+  margin: 10% 0 10% 0;
+  background-color: #be0c8f;
+  transform: translate(10%, 35%);
+  color: #ffffffff;
+  border-radius: 30px;
+  padding: 15px 0 0px 30px;
+}
+.kizi-title {
+  margin: 5% 0 5% 10px;
+  color: rgb(107, 107, 107);
+  font-size: 28px;
+}
+.y-m-d {
+  margin: 5% 0 5% 10px;
+  color: rgb(107, 107, 107);
+}
+.kizinakami {
+  padding: 15px 10px 15px 10px;
+  color: rgb(107, 107, 107);
+}
+.kizinakami h3 {
+  border-left: 10px solid #b4154a;
+  padding: 15px 0 15px 10px;
+  font-size: 20px;
+}
+.kizinakami p {
+  padding: 15px 0 15px 0;
+}
+.kizinakami h2 {
+  padding: 15px 0 15px 0;
+  font-size: 25px;
+}
+.kizinakami h4 {
+  padding: 15px 0 15px 0;
+  font-size: 18px;
+}
+.category-haikei {
+  background-color: #b4154a;
+  color: rgb(255, 255, 255);
+  position: relative;
+  width: 100%;
+  height: 140px;
+}
+.top-category {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+.post-category {
+  width: 80%;
+  margin: 15% 15px 10px 15px;
+}
+@media screen and (max-width: 768px) {
+  .post-category {
+    width: 85%;
+    margin: 0 auto;
+    height: 350px;
+    border-bottom: #bfbfbf solid 0.5px;
+  }
+  .post-category {
+    margin-top: 10%;
+  }
+  .category-haikei {
+    height: 230px;
   }
 }
