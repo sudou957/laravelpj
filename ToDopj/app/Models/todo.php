@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class todo extends Model
 {
     use HasFactory;
-    protected $guard = array('id');
+    protected $guarded = array('id');
     public function getDate()
     {
         $txt = $this->content;

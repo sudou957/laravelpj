@@ -18,10 +18,8 @@ if (count($errors) > 0)
   @endforeach
 </ul>
 @endif
-<form action="/update" method="POST">
+<form action="/todo/update" method="POST">
   @csrf
-  <input type="text" name="content">
-  <input type="submit" value="追加">
   <table>
     <tr>
       <th>
@@ -32,10 +30,11 @@ if (count($errors) > 0)
       <th>削除</th>
     </tr>
     <tr>
-      <td><input type="text" name="content" value="{{$form->content}}"></td>
+      <td><input type="text" name="content" value="{{$item->getDate()}}"></td>
       <td><input type="submit" value="更新"></td>
       <td><input type="submit" value="削除"></td>
     </tr>
   </table>
+  @csrf
 </form>
 @endsection
