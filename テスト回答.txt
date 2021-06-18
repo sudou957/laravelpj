@@ -1,0 +1,10 @@
+1,PHP
+2,モデル
+3,ビュー
+4,コントローラー
+5,CRUD
+6,create
+7,reseach
+8,update
+9,ルーティング
+10,blade
