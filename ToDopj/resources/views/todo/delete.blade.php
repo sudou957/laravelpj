@@ -8,7 +8,7 @@
 </style>
 @section('COACHTECH', 'delete.blade.php')
 
-@seciton('content')
+
 if (count($errors) > 0)
 <ul>
   @foreach ($errors->all() as $error)
@@ -36,4 +36,3 @@ if (count($errors) > 0)
     </tr>
   </table>
 </form>
-@endsection

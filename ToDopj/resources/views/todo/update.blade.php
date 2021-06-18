@@ -35,6 +35,5 @@ if (count($errors) > 0)
       <td><input type="submit" value="削除"></td>
     </tr>
   </table>
-  @csrf
 </form>
 @endsection
